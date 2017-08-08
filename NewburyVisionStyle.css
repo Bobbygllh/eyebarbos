@@ -1,0 +1,356 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+p { 
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.lists li {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+h4 {
+	padding: 0;
+    margin: 0;
+}
+
+/*Navigation Bar*/
+
+.navbar-default {
+  background-color: white;
+  background-image: none;
+  border-color: white;
+}
+
+.navbar-default .container {
+	padding: 0;
+}
+
+.navbar-brand {
+	height: 120px;
+	width: 160px;
+	padding: 0;
+}
+
+.navbar-text {
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 0;
+}
+
+.navbar-text h1 {
+	color: black;
+	font-size: 3.0em;/*40px*/
+	font-family: 'Roboto Slab', sans-serif;
+	text-decoration: underline;
+}
+
+.navbar-text h4 {
+	color: black;
+	font-size: 1em; /*12px*/
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-header a {
+	text-decoration: none;
+}
+.navbar-collapse {
+	margin-top: 4%;
+}
+
+.navbar-collapse li {
+	padding: 1%;
+	color: black;
+}
+
+.navbar button {
+	margin-top: 25px;
+}
+
+.navbar {
+	border: 1px solid white;
+	margin-bottom: 0px;
+}
+
+.nav.navbar-nav {
+	width: 600px;
+}
+
+/*Background Picture*/
+.main {
+	background:url(eyebar2.jpg);
+	background-size: cover;
+	height: 500px;
+	margin-top: 20px;
+	opacity: 0.95;
+}
+
+/*Doctor Info Section*/
+
+.doctor img {
+	margin-top: 30%;
+	margin-left: 20%;
+	height: 80%;
+	width: 80%;
+}
+
+.doctor .col-md-4 {
+	text-align: center;
+}
+
+.doctor p {
+	margin-top: 10%;
+}
+
+.select {
+	text-align: center;
+}
+.select h3{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.doctor ul {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+}
+
+.lists {
+	background-color: #36343F;
+	border: 3px solid black;
+	border-radius: 10px;
+	overflow: auto;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+/*Carousel*/
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+ /* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+
+.carousel-inner {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+/*Buttons*/
+
+.buttons .col-md-6 {
+	text-align: center;
+}
+
+.buttons a {
+	border: 1px solid black;
+	color: black;
+	border-radius: 3px;
+	margin: 80px 0 80px 0;
+	padding: 19px 75px 19px 75px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.buttons a:hover {
+	text-decoration: none;
+}
+
+.buttons h4 {
+	border: 1px solid black;
+	color: black;
+	border-radius: 3px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	font-weight: bold;
+	height: 68px;
+	width: 410px;
+	text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+	background-color: black;
+	width: 100%;
+}
+
+#left {
+	color: white;
+	font-size: 12px;
+	font-weight: 12px;
+	margin-top: 10px;
+}
+
+#right{
+	color: white;
+	font-size: 12px;
+	font-weight: 12px;
+	margin-top: 10px;	
+	padding: 0;
+	text-align: right;
+}
+
+.footer a {
+  color: #70726F;
+  font-size: 50px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+#center {
+	text-align: center;
+}
+
+/*Media Queries*/
+
+/*NavBar*/
+@media screen and (max-width: 1200px) {
+    
+  .navbar-text h4 {
+  	font-size: .8em;
+  	margin-bottom: 7%;
+  }
+
+  .navbar-text h1 {
+  	font-size: 2.1em;
+  }
+
+  .navbar-brand {
+	height: 75px;
+	width: 100px;
+	margin-top: 6%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    
+
+  .navbar-brand {
+	display: none;
+  }
+
+  .navbar-nav {
+	font-size: .8em;
+  }
+
+  .navbar-text h4 {
+  	margin-bottom: 5%;
+  }
+  .nav.navbar-nav {
+	width: 490px;
+  }
+
+  .footer {
+  	text-align: center;
+  }
+
+  #right {
+  	text-align: center;
+  }
+
+}
+
+
+
+/*Doctor*/
+
+@media screen and (max-width: 993px) and (min-width: 0px) {
+
+.doctor img {
+	margin-top: 10%;
+	margin-left: 0;
+	height: 65%;
+	width: 65%;
+}
+
+/*Buttons Divs*/
+
+@media screen and (max-width: 992px) and (min-width: 0px) {
+   
+    .buttons a {
+	 	margin: 40px 0 40px 0;
+	}
+
+	.buttons h4 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/*Special Doctor Resize*/
+
+@media screen and (max-width: 991px) and (min-width: 958px) {
+    
+     .doctor img {
+		text-align: center;
+		height: 75%;
+		width: 75%;
+}
